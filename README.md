@@ -1,7 +1,7 @@
 
 # 📄 RemoteOK Job Scraper
 
-A Python script to fetch remote design-related job listings from [RemoteOK](https://remoteok.com), filter them by keywords, store them in Google Sheets, and send you an email digest.
+A Python script to fetch remote design-related job listings from RemoteOK (https://remoteok.com), filter them by keywords, store them in Google Sheets, and send you an email digest.
 
 Cron job-ready once you set up all your credentials and install the appropiate dependencies on your server.
 
@@ -37,7 +37,7 @@ pip install requests gspread oauth2client yagmail pytz
    - Save the credentials JSON and note the path (used below)
 
 2. **Environment Configuration**  
-   Edit the following fields in `job_scraper_cleaned.py`:
+   Edit the following fields in `job_scraper.py`:
 
 ```python
 GOOGLE_SHEET_NAME = '[YOUR_GOOGLE_SHEET_NAME_HERE]'
@@ -71,14 +71,14 @@ Refer to the [pytz timezone list](https://en.wikipedia.org/wiki/List_of_tz_datab
 You can run the script manually:
 
 ```bash
-python job_scraper_cleaned.py
+python job_scraper.py
 ```
 
 Or schedule it via a cron job or task scheduler for periodic checks.
 
 ---
 
-## 💡 Customization
+## ✏️ Customization
 
 ### Filtering Keywords
 Modify these keyword lists in the script to control matching logic:
@@ -99,7 +99,7 @@ Matching jobs are:
 
 ---
 
-## 🧠 Note
+## 💡 Note
 
 This project is for personal use, demo, or extension. Always respect third-party API usage limits and terms of service.
 
@@ -111,10 +111,7 @@ MIT License
 
 ---
 
-
----
-
-## 🖼 Example Screenshots
+## 🔍 Example Screenshots
 
 Here’s what a matching job digest might look like in your email:
 
