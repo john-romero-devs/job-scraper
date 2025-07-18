@@ -113,6 +113,11 @@ MIT License
 
 ## 🔍 Example Screenshots
 
-Here’s what a matching job digest might look like in your email:
+What your updated Google Sheet might look like after it is updated:
+
+![Sample Google Sheet Screenshot](example_images/updated_google_sheet.png)
+
+
+What a matching job digest might look like in your email:
 
 ![Sample Email Screenshot](example_images/email_output_example.png)
